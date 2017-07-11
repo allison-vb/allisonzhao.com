@@ -209,6 +209,7 @@ footer hr {
     padding-top: 70px;
     padding-bottom: 100px;
     text-align: center;
+    max-width:100%;
 }
 
 li {
@@ -222,11 +223,6 @@ a {
     color: black;
 }
 
-@media screen and (min-width: 40em) {
-  .spotlight {
-    padding: 6em;
-    text-align: left;
-  }
   
 
 
