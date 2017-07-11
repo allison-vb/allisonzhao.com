@@ -13,8 +13,12 @@ main{
 
 h1 {
     font-weight:400;
-    padding-top: 70px;
+    padding-top: 100px;
     font-size: 3em;
+}
+
+h1.aboutmetitle{
+    padding-top: 0;
 }
 
 h2{
@@ -44,10 +48,16 @@ a {
     margin-right: auto;
     max-width: 800px;
     font-family: 'Roboto', sans-serif;
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+}
+
+.aboutmepic{
+    display: block;
+    max-width: 80%;
+    margin: auto;
 }
 
 .navbar-inpage{
