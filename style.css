@@ -22,8 +22,12 @@ h2{
     font-size:1.5em;
 }
 
-ul {
-    padding-top:170px;
+ul.homepageul {
+    padding:170px 5px 100px;
+}
+
+ul{
+    padding-top: 170px;
     padding-bottom: 100px;
     text-align: center;
 }
@@ -45,6 +49,10 @@ a {
     margin-right: auto;
     max-width: 800px;
     font-family: 'Roboto', sans-serif;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
 }
 
 .navbar-inpage{
@@ -66,4 +74,37 @@ p{
 
 a.video{
     text-decoration: underline;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
