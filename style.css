@@ -18,7 +18,7 @@ h1 {
 }
 
 h1.aboutmetitle{
-    margin-top: 0;
+    margin-top: 30px;
 }
 
 div.topicon{
@@ -57,7 +57,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     animation: fadein 4s;
     -moz-animation: fadein 4s; /* Firefox */
     -webkit-animation: fadein 4s; /* Safari and Chrome */
@@ -71,7 +71,7 @@ a {
 }
 
 .projects{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -95,7 +95,7 @@ h2.subheader {
 }
 
 p{
-    font-size:1.1em;
+    font-size:1.3em;
     line-height:1.5;
 }
 
