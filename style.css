@@ -10,6 +10,9 @@ main{
     max-width: 500px;
     margin-top:150px;
 }
+.page-wechat main {
+    margin-top: 0;
+}
 
 
 h1 {
@@ -88,7 +91,6 @@ a {
 }
 
 h2.subheader {
-    font-weight: 700;
     margin-top:20px;
     margin-bottom:10px;
     font-size: 1.3em;
@@ -101,6 +103,13 @@ p{
 
 a.video, a.link{
     text-decoration: underline;
+}
+
+.qrcode{
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    width: 100%;
 }
 
 @keyframes fadein {
