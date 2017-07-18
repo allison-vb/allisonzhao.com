@@ -1,15 +1,30 @@
-body{
-    font-family: 'Bellefair', serif;
+@import url("https://fonts.googleapis.com/css?family=Bellefair");
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond");
+@import url("font-awesome/css/font-awesome.min.css");
+
+html{
+    font-family: 'EB Garamond', sans-serif;
     color: black;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body{
+    padding: 0 10px;
 }
 
 main{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 500px;
-    margin-top:150px;
+    max-width: 800px;
+    margin-top: 9em;
 }
+
+.homepage {
+    font-family: 'Bellefair', serif;
+}
+
 .page-wechat main {
     margin-top: 0;
 }
@@ -17,7 +32,7 @@ main{
 
 h1 {
     font-weight:400;
-    font-size: 3em;
+    font-size: 3.5em;
 }
 
 h1.aboutmetitle{
@@ -31,23 +46,20 @@ div.topicon{
 
 h2{
     font-weight:400;
-    font-size:1.5em;
+    font-size:2em;
 }
 
-ul.homepageul {
-    padding:170px 5px 100px;
-}
-
-ul.projectul {
-    padding-left:70px;
-    font-size:1.2em;
+ul.project-list {
+    display: block;
+    padding-left:0;
+    font-size: 1.3em;
 }
 
 
 li {
-    display: inline-block;
+    display: block;
     margin-right: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 a {
@@ -59,27 +71,40 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 800px;
-    font-family: 'EB Garamond', sans-serif;
-    animation: fadein 4s;
-    -moz-animation: fadein 4s; /* Firefox */
-    -webkit-animation: fadein 4s; /* Safari and Chrome */
-    -o-animation: fadein 4s; /* Opera */
+    max-width: 1000px;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
 }
 
 .aboutmepic{
     display: block;
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
 }
 
 .projects{
-    font-family: 'EB Garamond', sans-serif;
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 80%;
+}
 
+.projects a{
+    text-decoration: underline;
+}
+
+.contact li{
+    display: inline-block;
+}
+
+.contact ul{
+    padding-left:0;
+}
+
+.navbar-homepage {
+    padding:170px 5px 100px;
 }
 
 .navbar-inpage{
@@ -90,6 +115,11 @@ a {
     text-align: center;
 }
 
+.navbar-homepage li,
+.navbar-inpage li {
+    display: inline-block;
+}
+
 h2.subheader {
     margin-top:20px;
     margin-bottom:10px;
@@ -98,7 +128,6 @@ h2.subheader {
 
 p{
     font-size:1.3em;
-    line-height:1.5;
 }
 
 a.video, a.link{
@@ -110,6 +139,20 @@ a.video, a.link{
     margin: 0 auto;
     max-width: 300px;
     width: 100%;
+}
+
+/* Mobile */
+@media only screen and (max-width: 667px) { 
+    html {
+        font-size:12px;
+    }
+
+    li {
+    margin-right: 30px;
+    }
+
+
+
 }
 
 @keyframes fadein {
@@ -144,3 +187,5 @@ a.video, a.link{
         opacity: 1;
     }
 }
+
+
