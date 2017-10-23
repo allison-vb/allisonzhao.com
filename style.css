@@ -25,14 +25,25 @@ main{
     font-family: 'Bellefair', serif;
 }
 
+.blog-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
 .page-wechat main {
     margin-top: 0;
+}
+
+.blog-links {
+    text-decoration: underline;
+    font-size: 1.5em;
 }
 
 
 h1 {
     font-weight:400;
-    font-size: 3.5em;
+    font-size: 
+    3.5em;
 }
 
 h1.aboutmetitle{
