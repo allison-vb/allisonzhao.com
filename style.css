@@ -122,10 +122,8 @@ a {
 .navbar-inpage{
     text-decoration: none;
     color: black;
-    position: fixed;
-    bottom: 5em;
+    padding-top: 10em;
     margin-left: 30%;
-
 }
 
 .navbar-homepage li,
