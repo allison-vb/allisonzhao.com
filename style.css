@@ -25,6 +25,10 @@ main{
     font-family: 'Bellefair', serif;
 }
 
+.blog-title {
+    margin-left: 1em;
+}
+
 .blog-container {
     width: 90%;
     margin: 0 auto;
@@ -38,8 +42,6 @@ main{
 .page-wechat main {
     margin-top: 0;
 }
-
-
 
 h1 {
     font-weight:400;
@@ -77,6 +79,10 @@ li {
 a {
     text-decoration: none;
     color: black;
+}
+
+.link {
+    text-decoration: underline;
 }
 
 .aboutme{
