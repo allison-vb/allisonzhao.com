@@ -98,7 +98,7 @@ a {
 
 .aboutmepic{
     display: block;
-    max-width: 90%;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -111,14 +111,6 @@ a {
 
 .projects a{
     text-decoration: underline;
-}
-
-.contact li{
-    display: inline-block;
-}
-
-.contact ul{
-    padding-left:0;
 }
 
 .navbar-homepage {
@@ -141,6 +133,7 @@ h2.subheader {
     margin-top:20px;
     margin-bottom:10px;
     font-size: 1.3em;
+    font-weight: bold;
 }
 
 p{
@@ -149,13 +142,6 @@ p{
 
 a.video, a.link{
     text-decoration: underline;
-}
-
-.qrcode{
-    display: block;
-    margin: 0 auto;
-    max-width: 300px;
-    width: 100%;
 }
 
 /* Mobile */
